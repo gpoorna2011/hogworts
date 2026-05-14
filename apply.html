@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>house Gryffindor</title>
+<style>
+
+body {
+    margin: 0;
+    font-family: Georgia;
+    color: white;
+
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("letter.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.house-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+}
+
+.house-card {
+    width: 360px;
+    padding: 30px;
+    text-align: center;
+
+    background: rgba(255,255,255,0.08);
+
+    border: 1px solid black;
+
+    box-shadow:
+        inset 0 0 0 14px black,
+
+    backdrop-filter: blur(10px);
+
+    border-radius: 10px;
+}
+
+
+.house-card img {
+    width: 180px;
+}
+
+.back-btn {
+display: flex;
+
+justify-content: center;
+align-items: center;
+
+width: 220px;
+height: 60px;
+
+background: gold;
+color: black;
+
+border: 3px solid black;
+border-radius: 20px;
+
+text-decoration: none;
+font-weight: bold;
+
+transition: 0.3s;
+}
+
+.back-btn:hover {
+background: orange;
+}
+
+.container {
+   height:60px;
+    align-items: center;
+    gap: 10px;
+}
+
+</style>
+</head>
+
+<body>
+<div class="house-container">
+
+    <div class="house-card">
+        <h3>Letter sent to Hogworts</h3>
+        
+
+        <h5>They will shortly getback to you</h5>
+
+        <b>Keep an eye on the windows — sometime between this week and next, an owl should be arriving with your mail.</b>
+        <p>Thank you </p>
+
+    </div>
+
+    
+<a href="Hogwarts-school.html" class="back-btn" >Return to home Page</a>
+
+</html>

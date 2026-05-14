@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Hogwarts School</title>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: Georgia;
+    color: white;
+
+    background:
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url("Hogwarts.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+h1, h4 {
+    text-align: center;
+}
+
+
+.house-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+}
+
+
+.house-card {
+    width: 280px;
+    padding: 30px;
+    text-align: center;
+
+    background: rgba(255,255,255,0.08);
+
+    border: 1px solid black;
+
+    box-shadow:
+        inset 0 0 0 14px black,
+
+    backdrop-filter: blur(10px);
+
+    border-radius: 10px;
+}
+
+
+.house-card img {
+    width: 180px;
+}
+
+
+.apply-box {
+    text-align: center;
+    margin: 30px;
+}
+
+.box{
+    font-family: Georgia;
+    padding: 15px 40px;
+    font-size: 20px;
+    border: 3px solid black;
+    background: Brown;
+}
+
+.learn-more {
+    padding: 12px 25px;
+    background: gold;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.learn-more:hover {
+    background: orange;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Hogwarts School of Witchcraft and Wizardry</h1>
+
+
+<div class="apply-box">
+    <a href="apply.html"><button class="box">Apply Now</button></a>
+</div>
+
+<h4>
+"Explore the four pillars of Hogwarts:
+the brave, the cunning, the wise, and the loyal."
+</h4>
+
+
+<div class="house-container">
+
+    <div class="house-card">
+        <h3>Gryffindor</h3>
+        <img src="Gryffindor.png" alt="Gryffindor">
+
+        <h5>Gryffindor – The House of the Brave</h5>
+
+        <b>Founder:</b>
+        <p>Godric Gryffindor</p>
+    <a href="harry.html"><button class="learn-more">Learn More</button></a>
+    
+
+    </div>
+
+    <div class="house-card">
+        <h3>Slytherin</h3>
+        <img src="Slytherin.png" alt="Slytherin">
+
+        <h5>The Ambitious and Resourceful House</h5>
+
+        <b>Founder:</b>
+        <p>Salazar Slytherin</p>
+    <a href="Draco.html"><button class="learn-more">Learn More</button></a>
+    </div>
+
+    <div class="house-card">
+        <h3>Ravenclaw</h3>
+        <img src="Ravenclaw.png" alt="Ravenclaw">
+
+        <h5>The House of Wit and Learning</h5>
+
+        <b>Founder:</b>
+        <p>Rowena Ravenclaw</p>
+    <a href="cho.html"><button class="learn-more">Learn More</button></a>
+    </div>
+
+    <div class="house-card">
+        <h3>Hufflepuff</h3>
+        <img src="Hufflepuff.png" alt="Hufflepuff">
+
+        <h5>The Loyal and Hardworking House</h5>
+
+        <b>Founder:</b>
+        <p>Helga Hufflepuff</p>
+    <a href="cedric.html"><button class="learn-more">Learn More</button></a>
+    </div>
+
+</div>
+
+</body>
+</html>
